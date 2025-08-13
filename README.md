@@ -66,3 +66,10 @@ spring.jpa.show-sql=true
 4. pagination might show inconsistent benavioue with excatly 5 books
 5. No input validation for special charecters in book fields
 
+##API Endpoints
+1. GET http://localhost:8080/api/books
+2. GET http://localhost:8080/api/books/{id}
+3. POST http://localhost:8080/api/books
+4. PUT http://localhost:8080/api/books/{id}
+5. DELETE http://localhost:8080/api/books/{id}
+
